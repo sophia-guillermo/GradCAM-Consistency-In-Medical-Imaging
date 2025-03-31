@@ -1,9 +1,7 @@
 # GradCAM consistency in medical imaging
 A deep learning project evaluating the consistency of Grad-CAM visual explanations across ResNet50 and VGG16 architectures for histopathological cancer classification. This study explores the trustworthiness of AI diagnostics by comparing model interpretability using IoU metrics and visual heatmaps.
 
-# Grad-CAM Consistency in Medical Imaging
 This repository contains the code and implementation for my final year project titled:
-
 **"Evaluating Trust in AI-Driven Diagnostics: Comparing Grad-CAM Outputs Across CNN Models"**
 
 ## Project Overview
@@ -15,34 +13,34 @@ The goal is to evaluate whether performance improvements from fine-tuning models
 - **Misclassification interpretation**
 - **Visual difference maps to assess heatmap shifts**
 
-## 📁 Files Included
+## Files Included
 - `notebook.ipynb`: The full Kaggle notebook containing model training, Grad-CAM generation, fine-tuning, and evaluation.
 - `requirements.txt`: Dependencies for reproducing the environment.
 - `README.md`: This file.
 
-## 📊 Dataset
+## Dataset
 The project uses the **LC25000** Lung and Colon Cancer Histopathological Image dataset:
 - Publicly available via Kaggle: [LC25000 Dataset](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images)
 
-## 🧪 Techniques Used
+## Techniques Used
 - Transfer Learning (ResNet50, VGG16)
 - Grad-CAM for interpretability
 - Fine-tuning selected convolutional blocks
 - Intersection over Union (IoU) for explainability comparison
 - Visual comparison of heatmaps and difference maps
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository
 2. Install dependencies
 3. Launch the notebook
 Alternatively, run it on [Kaggle Notebooks](https://www.kaggle.com/) with GPU enabled for better performance.
 
-## 🔍 Key Takeaways
+## Key Takeaways
 - VGG16 achieved higher accuracy and more stable Grad-CAM outputs.
 - Fine-tuning ResNet50 improved accuracy but led to reduced heatmap consistency.
 - Grad-CAM explanations change with training and architecture—raising questions around AI trustworthiness.
 
-## 📌 Author
+## Author
 **Sophia Guillermo**  
 Final Year Computer Science Student  
-[University of London]  
+University of London 
